@@ -13,6 +13,14 @@ public class ReferenceArrayTest {
         Person lee = new Person();
         // 为lee所引用的Person对象的age、height赋值
         lee.age = 16;
+        lee.height = 161;
+        // 将zhang变量的值赋给第一个数组元素
+        students[0] = zhang;
+        // 将lee变量的值赋给第二个数组元素
+        students[1] = lee;
+
+        lee.info();
+        students[0].info();
     }
 }
 
