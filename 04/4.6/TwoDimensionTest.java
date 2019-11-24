@@ -18,5 +18,15 @@ public class TwoDimensionTest {
         for (int i = 0, len = a[0].length; i < len; i++ ) {
             System.out.println(a[0][1]);
         }
+        System.out.println("B---->>>>>");
+        int[][] B = new int[3][4];
+        for (int[] b : B) {
+            System.out.println("b: " + b);
+            for (int i: b) {
+                System.out.println("i: " + i);
+            }
+        }
+        int[] c = {1,3,3};
+        int[] d = new int[4];
     }
 }
